@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "790706079370",
+    "project_id": "e-commerce-da651",
+    "storage_bucket": "e-commerce-da651.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790706079370:android:7dd6f0495182799f21cf73",
+        "android_client_info": {
+          "package_name": "com.prodigi.ecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy14FyfdINSAHVgW-0vHRA9PkBKmE3-9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
