@@ -26,6 +26,7 @@ class _ProductHomePageState extends State<ProductHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: appBackgroundColor,
       appBar: AppBar(
         title: const PrimaryText(
           text: "Products",

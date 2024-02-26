@@ -16,6 +16,7 @@ class ProductDetailsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: appBackgroundColor,
       appBar: AppBar(
         iconTheme: const IconThemeData(
           color: appWhiteColor, //change your color here
