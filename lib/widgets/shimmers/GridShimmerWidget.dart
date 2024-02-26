@@ -6,7 +6,9 @@ import 'package:nb_utils/nb_utils.dart';
 class GridShimmerWidget extends StatelessWidget {
   int? crossAxisCount;
   double? childAspectRatio;
-  GridShimmerWidget({super.key, this.crossAxisCount});
+  int? itemCount;
+  GridShimmerWidget(
+      {super.key, this.crossAxisCount, this.childAspectRatio, this.itemCount});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +19,7 @@ class GridShimmerWidget extends StatelessWidget {
                 crossAxisSpacing: 8.0,
                 mainAxisSpacing: 8.0,
                 childAspectRatio: childAspectRatio ?? 1),
-            itemCount: 6, // Number of grid items you want to show
+            itemCount: itemCount ?? 6, // Number of grid items you want to show
             itemBuilder: (context, index) => ShimmerWidget.circular(
                   height: 100,
                   width: 100,
