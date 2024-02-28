@@ -1,4 +1,4 @@
-import 'package:ecommerce/screens/product_home_page.dart';
+import 'package:ecommerce/screens/social_login_page.dart';
 import 'package:ecommerce/services/bloc_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const ProductHomePage(),
+        home: const SocialLoginPage(),
       ),
     );
   }

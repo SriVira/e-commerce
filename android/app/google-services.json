@@ -12,7 +12,20 @@
           "package_name": "com.prodigi.ecommerce"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "790706079370-ko5jrtbotmr0ru4ejg2j4eikaelielq2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prodigi.ecommerce",
+            "certificate_hash": "d04d077cf5b2e2e2d9975b34cfd5a6ff9e06d5aa"
+          }
+        },
+        {
+          "client_id": "790706079370-82ih4ftec5tj7ktn32rfopurg5au4vp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBy14FyfdINSAHVgW-0vHRA9PkBKmE3-9s"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790706079370-82ih4ftec5tj7ktn32rfopurg5au4vp6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "790706079370-1uarfhcefhu660cvltktrisetc4k077v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.prodigi.ecommerce"
+              }
+            }
+          ]
         }
       }
     }
